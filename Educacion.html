@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Dennis Menjivar">
+    <meta name="keywords" content="Forms, Combobox, Radio Button, labels">
+    <meta name="description" content="Como crear un curriculum vitae">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="500" height="80" viewBox="145 20 80 60"> <!--160=Mueve de Izquiera a derecha, entre menos es mas a la derecha. 80 es lo grande entre menos es mas grande.-->
+        <image xlink:href="Images/DAME.svg" width="200px" height="100px"></image>
+      </svg>
+    </header>
+    <h1>Hoja de Vida</h1>
+    <h2>Dennis Menjivar</h2>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Educacion.html">Educación</a></li>
+        <li><a href="Experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Cerfificado</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008-2010</td>
+            <td>INTEC</td>
+            <td>Bachillerato en Computación</td>
+            <td>San Pedro Sula</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2011-2017</td>
+            <td>UNITEC</td>
+            <td>Ingenieria en Sistemas</td>
+            <td>San Pedro Sula</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>NextU</td>
+            <td>HTML5</td>
+            <td>Online</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <aside>
+      <br>
+      <form autocomplete="on" name="Ingresar Nuevo Estudio">
+        <fieldset>
+          <legend>Ingresar Estudio</legend>
+          <p>
+            <label for="ano">Año:</label>
+            <select name="ano">
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+            </select>
+          </p>
+          <p>
+            <label for="Institucion">Institución:</label>
+            <input type="text" name="Institucion" placeholder="Ingrese la Institución">
+          </p>
+          <p>
+            <label for="Lugar">Lugar:</label>
+            <input type="text" name="Lugar" placeholder="Ingrese el Lugar">
+          </p>
+          <p>
+            <label for="Culmino">¿Culminó?</label>
+            <input type="radio" name="Culmino">Si
+            <input type="radio" name="Culmino">No
+          </p>
+          <input type="submit" name="Submit">
+        </fieldset>
+      </form>
+    </aside>
+    <footer>
+      <h4>Derechos Reservados</h4>
+      <ul>
+        <li><strong>Email: </strong>dnsmenjivar@gmail.com</li>
+        <li><strong>Teléfono: </strong>+1 813 812-2373</li>
+        <li><strong>Dirección: </strong>2506 west Carmen St, Tampa, Florida, 33609.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
